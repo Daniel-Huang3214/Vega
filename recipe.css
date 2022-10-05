@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(pngs/dirt.png);
+  height: 200vh;
+}
+
+h1 {
+  margin: 50px 100px;
+  padding: 10px 0px 20px;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Minecraft", sans-serif;
+  border: 5px solid black;
+  background-image: url(pngs/stone.png);
+}
+
+.infobox {
+  display: flex;
+  border: 5px solid black;
+  background-color: rgb(190, 189, 189);
+  height: 100vh;
+  margin: 0px 20%;
+}
+
+.recipebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: wheat;
+  border-left: 5px solid black;
+  padding: 50px;
+}
+
+.image {
+  background-color: rgb(139,139,139);
+  margin-bottom: 10px;
+  border: 5px solid black;
+  width: 10vw;
+  height: 16vh;
+}
+
+.backbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  color: white;
+}
+
+.backbutton > a {
+  color: white;
+}
+
+.recipeimage{
+  border: 5px solid black;
+  width: 20vw;
+  height: 25vh;
+  margin: 5px;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  margin: 30px 30px 30px 40px;
+  overflow-x: hidden;
+}
